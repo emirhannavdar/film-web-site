@@ -1,0 +1,342 @@
+body{
+    margin: 0;
+}
+
+.login{
+    background-color: hsl(248, 4%, 60%);
+    border-style: none;
+    position: fixed;
+    width: 100vw;
+    height: 70px;
+    margin: 0;
+    z-index: 2;
+}
+
+#yazi{
+    font-family: sans-serif;
+    color: white;
+    font-size: 23px;
+    position: absolute;
+    left: 7%;
+    margin-top: 22px;
+    font-weight: 900;
+}
+
+#buton1{
+    text-decoration: none;
+    border-color: hsl(244, 7%, 41%);
+    color: white;
+    background-color:  hsl(244, 7%, 41%);
+    border-radius: 10px;
+    float: right;
+    position: relative;
+    margin-right: 120px;
+    margin-top: 22px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+#buton1:hover{
+    color:  hsl(244, 7%, 41%);
+    background-color: white;
+}
+
+#buton2{
+    text-decoration: none;
+    border-color: hsl(244, 7%, 41%);
+    color: white;
+    background-color:  hsl(244, 7%, 41%);
+    border-radius: 10px;
+    float: right;
+    position: relative;
+    margin-right: 10px;
+    margin-top: 22px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+#buton2:hover{
+    color:  hsl(244, 7%, 41%);
+    background-color: white;
+}
+
+#onay{
+    text-decoration: none;
+    border-color: hsl(244, 7%, 41%);
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(240, 27%, 33%);
+    border-radius: 10px;
+    float: right;
+    position: relative;
+    margin-right: -210px;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#onay:hover{
+    color: hsl(240, 27%, 33%);
+    background-color: white;
+}
+
+.resim{
+    border-style: solid;
+    width: 100%;
+    height: 760px;
+}
+
+#img{
+    width: 100%;
+    height: 760px;
+}
+
+.arka{
+    background-color: rgb(255, 245, 233);
+    color: black;
+    position: absolute;
+    bottom: 40%;
+    margin: 30px;
+    padding: 30px;
+    right: 35%;
+    min-height: 200px;
+    opacity: 0.5;
+    filter:alpha(opacity=60);
+    z-index: 1;
+}
+
+#how{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#howAltı{
+    text-align: center;
+    font-size: 13px;
+}
+
+.emojiler{
+    border-style: none;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+}
+
+#kutular1{
+    border-color: aqua;
+    border-style: none;
+    position: inherit;
+    width: 33%;
+    height: 500px;
+}
+
+#kutular2{
+    border-color: red;
+    border-style: none;
+    position: inherit;
+    width: 33%;
+    height: 500px;
+    right: 0;
+}
+
+#kutular3{
+    border-color: rebeccapurple;
+    border-style: none;
+    position: inherit;
+    width: 33%;
+    height: 500px;
+    right: 33.4%;
+}
+
+#register{
+    position: absolute;
+    height: 50px;
+    margin-left: 40%;
+    margin-top: 20%;
+}
+
+#registerParag{
+    text-transform: uppercase;
+    position: absolute;
+    height: 50px;
+    margin-left: 33%;
+    margin-top: 44%;
+}
+
+#plan{
+    position: absolute;
+    height: 50px;
+    margin-left: 40%;
+    margin-top: 20%;
+}
+
+#planParag{
+    text-transform: uppercase;
+    position: absolute;
+    height: 50px;
+    margin-left: 33%;
+    margin-top: 44%;
+}
+
+#enjoy{
+    position: absolute;
+    height: 50px;
+    margin-left: 40%;
+    margin-top: 20%;
+}
+
+#enjoyParag{
+    text-transform: uppercase;
+    position: absolute;
+    height: 50px;
+    margin-left: 33%;
+    margin-top: 44%;
+}
+
+#registerAciklama{
+    line-height: 25px;
+    position: absolute;
+    margin: 50px;
+    margin-top: 60%;
+}
+
+#planAciklama{
+    line-height: 25px;
+    position: absolute;
+    margin: 50px;
+    margin-top: 60%;
+}
+
+#enjoyAciklama{
+    line-height: 25px;
+    position: absolute;
+    margin: 50px;
+    margin-top: 60%;
+}
+
+.resim2{
+    background-color: rgb(255, 245, 233);
+    border-style: none;
+    width: 100%;
+    height: 300px;
+    margin-top: 550px;
+}
+
+#arkaplan2{
+    position: absolute;
+    height: 300px;
+    width: 50%;
+
+}
+
+#arkaplanbaslık{
+    float: right;
+    position: relative;
+    margin-right: 260px;
+    margin-top: 50px;
+}
+
+#paragg{
+    border-style: none;
+    position: absolute;
+    width: 50%;
+    height: 300px;
+    left: 50%;
+}
+
+#resim2Parag{
+    line-height: 25px;
+    position: absolute;
+    margin-left: 25px;
+    margin-right: 30px;
+    margin-top: 120px;
+}
+
+#become{
+    text-align: center;
+}
+
+#bilgiKutu1{
+    border-color: rgb(255, 245, 233);
+    background-color: rgb(255, 245, 233);
+    border-style: solid;
+    position: relative;
+    margin-top: 100px;
+    width: 25%;
+    height: 400px;
+    margin-left: 15%;
+}
+
+#bilgiKutu2{
+    border-color: rgb(255, 245, 233);
+    background-color: rgb(255, 245, 233);
+    border-style: solid;
+    position: relative;
+    margin-top: -406px;
+    width: 25%;
+    height: 400px;
+    margin-left: 40%;
+}
+
+#bilgiKutu3{
+    border-color: rgb(255, 245, 233);
+    background-color: rgb(255, 245, 233);
+    border-style: solid;
+    position: relative;
+    margin-top: -406px;
+    width: 25%;
+    height: 400px;
+    margin-left: 65%;
+}
+
+#bilgikutuBaslık{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#bilgiKutu1:hover{
+    border-color: hsl(244, 7%, 41%);
+    color: white;
+    transform: scale(1.1);
+    background-color: hsl(244, 7%, 41%);
+}
+
+#bilgiKutu2:hover{
+    border-color: hsl(244, 7%, 41%);
+    color: white;
+    transform: scale(1.1);
+    background-color: hsl(244, 7%, 41%);
+}
+
+#bilgiKutu3:hover{
+    border-color: hsl(244, 7%, 41%);
+    color: white;
+    transform: scale(1.1);
+    background-color: hsl(244, 7%, 41%);
+}
+
+#filmler{
+    margin-left: 40px;
+}
+
+.veda{
+    background-color: hsl(248, 4%, 60%);
+    border-style: none;
+    position: relative;
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+}
+
+#iconInsta{
+    position: absolute;
+    height: 40px;
+    right: 30px;
+    margin-top: 15px;
+}
+
+#iconGithub{
+    position: absolute;
+    height: 40px;
+    right: 90px;
+    margin-top: 15px;
+}
